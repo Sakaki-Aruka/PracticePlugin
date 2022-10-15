@@ -1,0 +1,91 @@
+name: TestPluginLinux
+version: '1.0'
+main: com.github.ytshiyugh.testpluginlinux.TestPluginLinux
+api-version: 1.19
+authors: [ ytshiyugh ]
+description: testplugin for ver 1.19
+commands:
+  hat:
+    description: Put your item in the main hand to the head.
+    aliases: [h,helmet]
+    permission: testplugin.command.hat
+    permission-message: You do not have permission to perform this command.
+    usage: Have a nice hat!
+
+
+
+  fly:
+    description: When use this command, you can fly.
+    aliases: [bird]
+    permission: testplugin.command.fly
+    permission-message: You do not have permission to use this command.
+
+  pstnamechange:
+    description: When use this command, you can change your displayname.
+    permission: testplugin.command.pstnamechange
+    permission-message: You do not have permission to use this command.
+
+  houchi:
+    description: When use this command, you can change your listname.Syntaxs are "start" and "end".
+    permission: testplugin.command.houchi
+    permission-message: You do not have permission to use this command.
+
+  psttest:
+    description: Test command.
+    permission: testplugin.command.psttest
+    permission-message: You do not have permission to use this command.
+
+  depotest:
+    description: Deposit and something else test command.
+    permission: testplugin.command.depotest
+    permission-message: You do not have permission to use this command.
+
+  clickabletest:
+    description: Clickable test.
+
+    permission-message: You do not have permission to use this command.
+
+  clickabletest-child:
+    description: Clickabletest command's child.
+    permission: testplugin.command.chickabletest-child
+    permission-message: You do not have permission to use this command.
+
+  pstd2:
+    description: Public Storage Deposit (use UUID)
+    permission: testplugin.command.pstd
+    permission-message: You do not have permission to use this command.
+
+  pstd:
+    description: Public Storage Deposit (use Player)
+    permission: testpplugin.command.pstd
+    permission-message: You do not have permission to use this command.
+
+  pstd3:
+    description: Public Storage Deposit (use UUID)
+    permission: testplugin.command.pstd
+    permission-message: You do not have permission to use this command.
+
+  pstp:
+    description: Public Storage Pull (use UUID)
+    permission: testplugin.command.pstp
+    permission-message: You do not have permission to use this command.
+
+  pstp2:
+    description: Public Storage Pull2 (use UUID)
+    permission: testplugin.command.pstp
+    permission-message: You do not have permission to use this command.
+
+  psts:
+    description: Public Storage Show (use UUID)
+    permission: testplugin.command.psts
+    permission-message: You do not have permission to use this command.
+
+  wtp:
+    description: Test Command
+    permission: testplugin.command.worldtptest
+    permission-message: You do not have permission to use this command.
+
+  home:
+    description: Home Command
+    permission: testplugin.command.home
+    permission-message: You do not have permission to use this command.
